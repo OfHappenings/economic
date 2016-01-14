@@ -9,7 +9,7 @@ import Quandl
 
 class Stats():
     def __init__(self, ip, port):
-        self.authtoken = 'bcMJsYVxMBBirQsvkpLH'
+        self.authtoken = ''
         self.client = InfluxDBClient(ip, port, 'root', 'root', 'economic')
 
 
